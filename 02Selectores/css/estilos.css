@@ -1,9 +1,32 @@
 
 /* Selectores de tipo */
 h2{
-    background: steelblue;
+    color:steelblue
 }
 
-nav{
+/* nav{
+    border: 1px solid black;
+} */
+
+/* Selectores de clase */
+.borde{
+    border: 1px solid black;
+}
+
+.titulo{
+    text-align:center;
+}
+
+.😁{
+    color: darkblue;
+}
+
+.😂{
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+/* Selectores de ID */
+#section{
     border: 1px solid black;
 }
