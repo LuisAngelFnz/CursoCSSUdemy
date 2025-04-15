@@ -39,3 +39,25 @@ h2{
 /* h2[class]{
     color: red;
 } */
+
+/* Reto */
+[href]{
+    text-decoration: none;
+}
+
+[href="https://alexcgdesign.com/inicio"]{
+    color: darkred;
+}
+
+[href^="hsttps"]{
+    color: darkolivegreen;
+}
+
+[href$=".org"]{
+    background-color: steelblue;
+    color: white;
+}
+
+[href*="alexcgdesign"]{
+    background: pink;
+}
