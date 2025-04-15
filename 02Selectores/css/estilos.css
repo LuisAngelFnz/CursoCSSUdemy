@@ -30,3 +30,12 @@ h2{
 #section{
     border: 1px solid black;
 }
+
+/* Selectores de atributos */
+/* a[href]{
+    font-size: 6px;
+} */
+
+/* h2[class]{
+    color: red;
+} */
