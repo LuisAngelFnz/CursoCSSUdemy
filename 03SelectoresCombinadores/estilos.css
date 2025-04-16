@@ -27,3 +27,29 @@ h2,h3{
 nav.titulo.contenedor{
     background: steelblue;
 }
+
+/* Retos */
+
+h2, h3{
+    font-size: 25px;
+    font-family: 'Arial';
+}
+
+.contenedor a{
+    text-decoration: none;
+    color: firebrick
+}
+
+.contenedor>a{
+    font-size: 20px;
+    font-family: bold;
+}
+
+
+h2+p{ /* Primer hermano adyacente*/
+    color: goldenrod;
+}
+
+h3~p{ /* Todos los hermanos generales*/
+    color: indigo;
+}
