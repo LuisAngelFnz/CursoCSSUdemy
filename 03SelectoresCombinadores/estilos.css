@@ -3,3 +3,27 @@ h2,h3{
     font-size: 25px;
     font-family: 'Arial';
 }
+
+/* 
+    Combinadores de decendientes
+    : Se tienen que especificar con un espacio
+*/
+.contenedor p{
+    color: lightcoral;
+}
+
+.contenedor a{
+    color: blueviolet
+}
+
+/* 
+    Combinadores de hijo directo
+ */
+
+.contenedor>p{
+    color: red;
+}
+
+nav.titulo.contenedor{
+    background: steelblue;
+}
