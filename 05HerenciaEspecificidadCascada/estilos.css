@@ -62,10 +62,24 @@ h2{
     Aquí se aplica el font-size de 40 pero no por el model en cascada
     si no por que la especificidad de .title vale 10 y la de h2.title vale 11(clase+atributo)
 */
-.title{
+/* .title{
     font-size: 10px;
 }
 
 h2.title{
     font-size: 40px;
+} */
+
+/*
+    Se puede anular la especificidad si se coloca un "!important"
+    al final de una propiedad de css en este ejemplo a pesar de que
+    ".title" tiene especificidad de 10 y "h2.title" de 11 se aplica la de 10
+
+*/
+/* .title{
+    font-size: 10px !important;
 }
+
+h2.title{
+    font-size: 40px;
+} */
