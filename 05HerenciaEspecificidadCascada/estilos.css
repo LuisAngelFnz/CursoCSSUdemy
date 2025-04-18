@@ -25,9 +25,21 @@
     height: 400px;
     background: crimson;
     color: white;
+    border: 5px solid black;
+    font-family: Impact;
+    padding: 10px;
     height: 300px;
     height: 200px;
+    text-align: center;
 }
+
+.title{
+    font-size: 25px;
+    border: inherit;
+    padding: initial;
+    font-family: inherit;
+    text-align: initial;
+} 
 
 /* En este ejemplo no aplica el modelo en cascada por la especificidad */
 
