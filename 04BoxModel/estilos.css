@@ -1,16 +1,18 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     margin: 0;
 }
 
 .box{
-    width: 200px;
-    height: 100px;
-    padding-top: 1px;
+    width: 300px;
+    height: 150px;
 }
 
 .box1{
-    width: 100%;
     background: steelblue;
     /* 
     margin-top: 50px;
@@ -33,19 +35,20 @@ body{
     /* margin-left: auto; */
     /* margin: 0 auto */
 
-    margin-bottom: 80px;
+    border: 1px solid black;
 
-
-}
-
-.header{
-    background: gold;
-    height: 40px;
-    margin-top: 40px;
 }
 
 .box2{
-    opacity: 0.5;
-    background: tomato;
+    /* padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 40px; */
+    /* Shortcut */
+    padding: 20px 30px;
+    background: crimson;
+    color: black;
     margin-top: 30px;
+    margin-left: 20px;
+    overflow: hidden;
 }
