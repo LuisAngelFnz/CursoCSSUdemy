@@ -5,18 +5,30 @@
 }
 
 
-.enlaces{
-    display: inline-block;
-    text-decoration: none;
-    background: crimson;
-    color: white;
-    margin: 0 auto;
-    padding: 30px 20px;
+/* .enlaces{ */
+    /* display: inline-block; */
+    /* text-decoration: none; */
+    /* background: crimson; */
+    /* color: white; */
+    /* margin: 0 auto; */
+    /* padding: 30px 20px; */
     /* margin-top: 20px; */
     /* margin: 0 auto; */
+/* } */
+
+/* .block{ */
+    /* display: none; */
+    /* opacity: 0.5; */
+/* } */
+
+.header{
+    height: 400px;
+    background: crimson;
+    color: white;
+    height: 300px;
+    height: 200px;
 }
 
-.block{
-    /* display: none; */
-    opacity: 0.5;
+.header{
+    height: 600px;
 }
