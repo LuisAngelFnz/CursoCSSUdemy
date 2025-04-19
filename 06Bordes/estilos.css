@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    background: orangered;
+    width: 200px;
+    height: 200px;
+    margin: 40px auto 0;
+
+    /*
+        Shorthand  border: with style color
+    */
+    /* border: 10px groove green; */
+
+    /* 
+        Shorthand border-(width,style,color): top rigth bottom left
+    */
+    /* border-width: 20px 15px 10px 5px;
+    border-style: groove dashed solid dotted;
+    border-color: white steelblue brown purple; */
+
+    /* 
+        Shorthand inverso al anterior border-(top,rigth, bottom, left): with style color
+    */
+    /* border-top: 10px solid brown;
+    border-right: 5px dashed white;
+    border-bottom: 8px double black;
+    border-left: 8px dotted steelblue;  */
+
+    /*
+        Shorthand por lado 
+    */
+    border-top-width: 20px;
+    border-top-style: solid;
+    border-top-color: crimson;
+
+    border-right-width: 20px;
+    border-right-style: solid;
+    border-right-color: crimson;
+
+    border-bottom-width: 20px;
+    border-bottom-style: solid;
+    border-bottom-color: crimson;
+
+    border-left-width: 20px;
+    border-left-style: solid;
+    border-left-color: crimson;
+}
