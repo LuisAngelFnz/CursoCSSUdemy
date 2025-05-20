@@ -50,3 +50,11 @@
     margin-top: 10px;
     text-align: center;
 }
+
+.goku{
+    display: block;
+    width: 350px;
+    margin: 30px auto;
+    /* box-shadow: 10px 10px; */
+    filter: drop-shadow(0px 0px 20px gold);
+}
