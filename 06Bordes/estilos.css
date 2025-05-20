@@ -50,15 +50,47 @@
     border-left-color: crimson;
 }
 
+.card{
+    width: 400px;
+    margin: 20px auto;
+    height: auto;
+    padding: 20px ;
+    border: 1px solid black;
+    /* background: steelblue; */
+
+}
+
 .img{
     display: block;
-    width: 400px;
-    margin: 80px auto;
-    border: 20px groove brown;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    /* border: 20px groove brown; */
     /* border-radius: 30px 5px; */
 
-    border-top-right-radius: 5px;
+    /* Shorthand de border */
+    /* border-top-right-radius: 5px;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 5px;
-    border-top-left-radius: 30px;
+    border-top-left-radius: 30px; */
+
+    /* border radios circulo completo */
+    object-fit: cover;
+    border-radius: 50%;
+}
+.cta{
+    background: crimson;
+    border-radius: 3px;
+    color: white;
+    display: block;
+    margin: 10px auto;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+}
+
+.name{
+    text-align: center;
+    font-family: Arial;
 }
