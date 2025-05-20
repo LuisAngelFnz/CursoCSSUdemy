@@ -1,1 +1,22 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img{
+    width: 400px;
+    margin: 30px auto;
+    display: block;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    border-radius: 50%;
+    background: steelblue;
+    /* box-shadow: h-offset v-offset blur=0 spread=0 color=currentColor; */
+    box-shadow: 100px 100px 0 0 crimson, 100px 0 0 0 darkblue, 0 100px 0 0 darkorange;
+}
