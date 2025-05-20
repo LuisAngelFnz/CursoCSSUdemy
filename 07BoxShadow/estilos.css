@@ -5,18 +5,24 @@
     box-sizing: border-box;
 }
 
+body{
+    background: #fafafa;
+}
+
 .img{
     width: 400px;
     margin: 30px auto;
     display: block;
+    /* box-shadow: 8px 8px 12px rgba(21, 47, 214, 0.595); */
+    box-shadow: 6px 3px 10px rgba(0, 0, 0, .50);
 }
 
 .box{
     width: 100px;
     height: 100px;
     margin: 30px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     background: steelblue;
     /* box-shadow: h-offset v-offset blur=0 spread=0 color=currentColor; */
-    box-shadow: 100px 100px 0 0 crimson, 100px 0 0 0 darkblue, 0 100px 0 0 darkorange;
+    box-shadow: 3px 2px 12px crimson;
 }
