@@ -8,7 +8,15 @@
     padding: 45px 0;
     /* color:crimson; */
     color: rgb(255, 255, 255);
-    background: rgba(0, 0, 240, 0.1)
+    /* background: rgba(0, 0, 240, 0.1) */
+    
+    background: #777777;
+    background: #111111;
+    /* 
+    Se calcula multiplicanco el primier valor(convertido de hexadecimal a decimal)
+    del primer par por 15 y sumar el segundo valor(convertido de hexadecimal a decimal) del primer par 
+    */
+    
 }
 
 
