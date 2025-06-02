@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 80%;
+    height: 400px;
+    margin: 30px auto;
+    background: steelblue;
+    /* background-image: linear-gradient(
+        direction, puede ser "to "+direccion(bottom, left, right, top) o con grados 90deg 40deg etc.
+        color stop,
+        color stop
+    ); */
+    background-image: linear-gradient(
+        to right, crimson 50%, pink 80%
+    );
+}
