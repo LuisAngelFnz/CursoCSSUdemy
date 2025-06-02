@@ -19,3 +19,24 @@
         to right, crimson 50%, pink 80%
     );
 }
+
+.header{
+    height: 900px;
+    background-image: linear-gradient(
+        #00008b80, 
+        #4683b480
+    ),
+    url(img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0.1px;
+}
+
+.title{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 270px;
+    font-family: Arial;
+    color: #fff;
+}
