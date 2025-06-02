@@ -11,6 +11,11 @@
     /* background shortands */
     /* background: rgb(100, 100, 250); */
     background-color: rgb(100, 100, 250);
-    background-image: url(img/cloud.png);
+    background-image: url(img/spidy.png);
     background-repeat: no-repeat;
+    /* background-position: x y; */
+    /* Palabras reservadas: top bottom lefth rigth center solo se pueden ocupar 2 */
+    background-position: center ;
+    /* background-size: x y;  o palabras reservadas cover contain auto*/
+    background-size: auto;
 }
