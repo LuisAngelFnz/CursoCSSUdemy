@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .container {
     width: 70%;
     height: 300px;
@@ -18,4 +23,29 @@
     background-position: center ;
     /* background-size: x y;  o palabras reservadas cover contain auto*/
     background-size: auto;
+}
+
+
+.atachment{
+    margin-top: 100px;
+    width: 40%;
+    background-image: url(img/img-hero.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fixed{
+    background-attachment: fixed;
+}
+.title{
+    font-size: 70px;
+    font-family: 'Arial';
+    text-align: center;
+    color: #FFFFFFFF;
+    margin-top: 100px;
+}
+.space{
+    height: 3000px;
 }
