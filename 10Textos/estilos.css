@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&family=WDXL+Lubrifont+SC&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@
 
 body{    
     background: #9ab1f6;
-    font-family: fantasy;
+    font-family: "WDXL Lubrifont SC", sans-serif;
 }
 
 .container{
@@ -20,6 +22,7 @@ body{
 
 .h1{
     text-align: inherit;
+    font-weight: 600;
 }
 
 .copy{
@@ -34,7 +37,7 @@ body{
     /* font-style: oblique; */
 }
 
-.bold{
+.bold{ 
     color:crimson;
     /* font-weight: bold; */
     font-size: 32px;
