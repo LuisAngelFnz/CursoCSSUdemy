@@ -1,12 +1,33 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    padding: 0;
 }
 
 body{
     font-family: 'Arial';
 }
 
+/* ul,ol{
+    padding: 0;
+} */
+
+/* list-style: tipo imagen posición; */
+
+ul{
+    margin: 30px 0;
+    list-style-type: none;
+    list-style-image: url('img/icono.png');
+    list-style-position: inside;
+}
+
+ol{
+    list-style: disc;
+    list-style-position: inside;
+}
+
 .lista{
+    font-size: 24px;
     background-color: darksalmon;
+    /* list-style: ; */
 }
