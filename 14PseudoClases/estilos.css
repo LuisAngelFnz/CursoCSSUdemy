@@ -1,3 +1,7 @@
+:root{
+    background: steelblue;
+}
+
 *{
     margin: 0;
     padding:0;
@@ -106,4 +110,21 @@ h2:focus{
 input[type="checkbox"]:checked + label{
     background: crimson;
     color: white
+}
+
+
+h3{
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: Arial;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3:not(.title):not(:hover){
+    color: crimson;
+}
+
+h3:not(:hover){
+    text-decoration: line-through;
 }
