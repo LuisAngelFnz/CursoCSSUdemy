@@ -89,3 +89,12 @@ input[type="email"]{
 input[type="checkbox"]{
     display: inline-block
 }
+
+input:focus{
+    background: rgba(220, 20, 60, 0.5);
+}
+
+h2:focus{
+    background: crimson;
+    color: white;
+}
