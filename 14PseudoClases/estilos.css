@@ -35,7 +35,7 @@
 
 .event{
     display: inline-block;
-    margin-top: 30pxgit s;
+    margin-top: 30px;
     margin-left: 20px;
     background: crimson;
     color: white;
@@ -45,4 +45,16 @@
 
 .event:active{
     padding: 25px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background: steelblue;
+}
+
+#objetivo:target{
+    margin-left: 150px;
 }
