@@ -17,3 +17,7 @@
     background: burlywood;
     color: black;
 }
+
+.enlace:visited{
+    background:crimson;
+}
