@@ -32,3 +32,17 @@
     background: steelblue;
     color: white;
 }
+
+.event{
+    display: inline-block;
+    margin-top: 30pxgit s;
+    margin-left: 20px;
+    background: crimson;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.event:active{
+    padding: 25px;
+}
