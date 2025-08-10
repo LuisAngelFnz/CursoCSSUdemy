@@ -67,6 +67,10 @@
     padding:30px;
 }
 
+.form:focus-within{
+    background: darkblue;
+}
+
 .form__title{
     text-align: center;
     margin-top: 20px;
@@ -97,4 +101,9 @@ input:focus{
 h2:focus{
     background: crimson;
     color: white;
+}
+
+input[type="checkbox"]:checked + label{
+    background: crimson;
+    color: white
 }
