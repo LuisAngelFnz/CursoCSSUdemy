@@ -28,6 +28,22 @@ body{
 }
 
 /* Filtro por su tipo */
-.box:only-of-type{
+/* .box:only-of-type{
+    background: tomato;
+} */
+
+/* .box:first-of-type{
+    background: coral;
+} */
+
+/* .box:last-of-type{
+    background: coral;
+} */
+
+/* .box:nth-of-type(2n+1){
+    background: tomato;
+} */
+ 
+.box:nth-last-of-type(odd){ /* even=pares, odd=inpares*/
     background: tomato;
 }
