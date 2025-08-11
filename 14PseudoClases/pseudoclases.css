@@ -44,6 +44,30 @@ body{
     background: tomato;
 } */
  
-.box:nth-last-of-type(odd){ /* even=pares, odd=inpares*/
+/*.box:nth-last-of-type(){ even=pares, odd=inpares
     background: tomato;
+}*/
+
+/* .container *:only-child{
+    background: tomato;
+} */
+
+/* div:first-child{
+    background: tomato;
+} */
+
+/* div:last-child{
+    background: crimson;
+} */
+
+/* div:nth-child(4){
+    background: crimson;
+} */
+
+/* body :nth-child(2n){
+    background: red;
+} */
+
+.container :nth-last-child(1){
+    background: crimson;
 }
