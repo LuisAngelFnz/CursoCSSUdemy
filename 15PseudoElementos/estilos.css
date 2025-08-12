@@ -25,3 +25,36 @@ body{
     margin-bottom: 10px;
 }
 
+*::selection{
+    color: white;
+    /* text-shadow: 0 0 6px black; */
+    background: steelblue;
+
+}
+
+p::first-line{
+    color: crimson;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.card__title::first-letter{
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 20px;
+}
+
+input[type="text"]{
+    margin-left: 400px;
+    background: crimson;
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 3px solid white;
+    outline: none;
+}
+
+input[type="text"]::placeholder{
+    color: white;
+}
