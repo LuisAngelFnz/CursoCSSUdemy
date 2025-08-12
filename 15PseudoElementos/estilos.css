@@ -1,4 +1,4 @@
-*{
+*, ::after, ::before{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -20,14 +20,15 @@ body{
 }
 
 .card__title{
-    border-bottom: 3px solid coral;
+    /* border-bottom: 3px solid coral; */
     padding-bottom: 7px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
-*::selection{
+/* *::selection{
     color: white;
-    /* text-shadow: 0 0 6px black; */
+    text-shadow: 0 0 6px black;
     background: steelblue;
 
 }
@@ -36,15 +37,15 @@ p::first-line{
     color: crimson;
     font-weight: bold;
     font-size: 2rem;
-}
+} */
 
-.card__title::first-letter{
+/* .card__title::first-letter{
     font-size: 2rem;
     line-height: 3rem;
     letter-spacing: 20px;
-}
+} */
 
-input[type="text"]{
+/* input[type="text"]{
     margin-left: 400px;
     background: crimson;
     padding: 15px;
@@ -57,4 +58,55 @@ input[type="text"]{
 
 input[type="text"]::placeholder{
     color: white;
+} */
+
+/*
+Before y after 
+<elemento>
+    ::before
+    Contenido
+    ::after
+</elemento>
+
+*/
+
+.card__text::before{
+    content: 'Hola ';
+}
+.card__text::after{
+    content: ' Ángel';
+}
+
+.card__title::before, .card__title::after{
+    content: '';
+    display: block;
+    height: 3px;
+    padding: 2px;
+    background: salmon;
+}
+
+ul{
+    counter-reset: my_contador;
+    padding-top: 10px;
+}
+
+li{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+li::before{
+    content: counter(my_contador);
+    counter-increment: my_contador;
+    background: salmon;
+    width: 20px;
+    height: 20px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 50%;
+    margin-right: 5px;
+
 }
