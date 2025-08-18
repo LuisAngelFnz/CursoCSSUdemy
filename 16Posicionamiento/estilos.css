@@ -50,3 +50,26 @@
     right: 0;
     /* z-index: 20; */
 }
+
+.fixed{
+    background: darkcyan;
+    position: fixed;
+    margin: 0;
+    /* top: 0;
+    left: 0; */
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1em 0;
+    height: auto;
+}
+
+.fixed a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.fixed a:hover{
+    text-decoration: underline;
+}
