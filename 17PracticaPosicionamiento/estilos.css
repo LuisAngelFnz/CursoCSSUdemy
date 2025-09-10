@@ -8,7 +8,46 @@
 
 body{
     font-family: "Raleway", sans-serif;
-    /* font-optical-sizing: auto;
+}
+
+.hero{
+    background: 
+    linear-gradient(180deg,rgba(54, 108, 255, 0.49) 0%, rgba(54, 108, 255, 0.49) 100%),
+    url('working.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-text{
+    padding-top: 0.1px;
+    text-align: center;
+    color: white;
+    
+}
+.hero__title{
+    /* display: inl; */
+    margin-top: 150px;
+    font-size: 3rem;
+}
+
+.hero__copy{
+    font-size: 1.5rem;
     font-weight: 300;
-    font-style: normal; */
+    margin: 20px 0;
+}
+
+.hero__cta{
+    /* display: inline-block; */
+    background: white;
+    text-decoration: none;
+    color: rgb(38, 128, 255);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero__cta:hover{
+    background: rgb(38, 128, 255);
+    color: white;
 }
