@@ -8,25 +8,26 @@
 
 body{
     font-family: "Raleway", sans-serif;
+    min-height: 150vh;
 }
 
 .hero{
     background: 
-    linear-gradient(180deg,rgba(54, 108, 255, 0.49) 0%, rgba(54, 108, 255, 0.49) 100%),
-    url('working.jpg');
+        linear-gradient(180deg,rgba(54, 108, 255, 0.49) 0%, rgba(54, 108, 255, 0.49) 100%),
+        url('working.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .container-text{
-    padding-top: 0.1px;
+    padding-top: 0.08px;
     text-align: center;
     color: white;
     
 }
 .hero__title{
-    /* display: inl; */
     margin-top: 150px;
     font-size: 3rem;
 }
@@ -50,4 +51,12 @@ body{
 .hero__cta:hover{
     background: rgb(38, 128, 255);
     color: white;
+}
+
+
+.hero__wave{
+    position: absolute;
+    width: 100%;
+    bottom: -1px;
+    /* left: 0; */
 }
