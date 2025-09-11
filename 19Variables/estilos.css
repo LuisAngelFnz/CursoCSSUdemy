@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+/* Variables */
+
+:root{
+    --primary-gradient:linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    --primary-shawdow:3px 3px 5px 2px rgb(71, 71, 71);
+}
 
 .container{
-    background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100% );
+    background: var(--primary-gradient);
     height: 100vh;
     padding-top: 0.5px;
 }
@@ -17,7 +23,7 @@
     margin: 30px auto;
     background: #fff;
     padding: 20px;
-    box-shadow: 3px 3px 5px 2px rgb(71, 71, 71);
+    box-shadow: var(--primary-shawdow);
     font-family: Arial;
 }
 
@@ -36,7 +42,7 @@
 .card1__enter{
     height: 20px;
     text-decoration: none;
-    background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100% );
+    background: var(--primary-gradient);
     padding: 7px 12px;
     border-radius: 2px;
     color: #fff; 
@@ -48,7 +54,7 @@
     margin: 30px auto;
     background: #fff;
     padding: 20px;
-    box-shadow: 3px 3px 5px 2px rgb(71, 71, 71);
+    box-shadow: var(--primary-shawdow);
     font-family: Arial;
 }
 
@@ -67,7 +73,7 @@
 .card2__enter{
     height: 20px;
     text-decoration: none;
-    background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100% );
+    background: var(--primary-gradient);
     padding: 7px 12px;
     border-radius: 2px;
     color: #fff; 
