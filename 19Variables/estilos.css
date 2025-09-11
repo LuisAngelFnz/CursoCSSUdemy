@@ -9,6 +9,7 @@
 :root{
     --primary-gradient:linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     --primary-shawdow:3px 3px 5px 2px rgb(71, 71, 71);
+    --primary-color: rgb(20, 97, 161)
 }
 
 .container{
@@ -21,7 +22,7 @@
     height: 40vh;
     width: 45vw;
     margin: 30px auto;
-    background: #fff;
+    background: var(--background);
     padding: 20px;
     box-shadow: var(--primary-shawdow);
     font-family: Arial;
@@ -29,7 +30,7 @@
 
 .card1__title{
     height: 20%;
-    color: rgb(20, 97, 161);
+    color: var(--primary-color, red); /*Fallbacks*/
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -49,10 +50,11 @@
 }
 
 .card2{
+    --background:steelblue;
     height: 40vh;
     width: 45vw;
     margin: 30px auto;
-    background: #fff;
+    background: var(--background);
     padding: 20px;
     box-shadow: var(--primary-shawdow);
     font-family: Arial;
