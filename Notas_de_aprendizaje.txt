@@ -1,0 +1,33 @@
+
+
+#### Diseño adaptable
+Que es?
+
+proceso de adaptar una página a dispositivos moviles
+
+Existen dos formas de hacerlo:
+- Movil First    Primero se adapta a dispositivos moviles y luego se adapta a escritorios
+- Desktop First  Primero se adapta a escritorios y luego se adapta a dispositivos moviles
+
+Que es el viewport?
+El área visible en la pantalla del navegador y se define en la etiqueta "meta" ejemplo:
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+Existen propiedades del viewport:
+initial-scale: Define el zoom inicial
+minimun-scale: Define el zoom mínimo
+maximun-scale: Define el zoom máximo
+user-scalable: Define si el usuario puede cambiar el zoom
+
+Hay orientaciones del vierport:
+
+Portrait: Vertical
+Landscape: Horizontal
+
+El diseño responsivo se maneja con media queries y se representan en el css con un @media ejemplo:
+
+@media <media type> and (expression) {
+    ccss 
+}
+
+Tambien se le conocen como breakpoints  y tambien las queries respetan la especidad.
