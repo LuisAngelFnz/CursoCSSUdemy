@@ -8,9 +8,9 @@
     --my-color:crimson;
 }
 
-.title{
+h1.title{
     font-size   : 3rem;
-    color       : var(--my-color);
+    color       : crimson;
     margin      : 40px 0;
     text-align  : center;
     font-family : monospace;
@@ -31,6 +31,6 @@
     }
     .title{
         background: black;
-        color:var(--my-color);
+        color:white;
     }
 }
