@@ -8,6 +8,17 @@
     --my-color:crimson;
 }
 
+
+@media screen and (max-width:600px){
+    :root{
+        --my-color:white;
+    }
+    h1.title{
+        background: black;
+        color:white;
+    }
+}
+
 h1.title{
     font-size   : 3rem;
     color       : crimson;
@@ -22,15 +33,5 @@ h1.title{
         font-size   : 5rem;
         text-align  : right;
         font-family : cursive;
-    }
-}
-
-@media screen and (max-width:600px){
-    :root{
-        --my-color:white;
-    }
-    .title{
-        background: black;
-        color:white;
     }
 }
