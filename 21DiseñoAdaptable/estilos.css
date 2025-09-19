@@ -9,6 +9,24 @@
 }
 
 
+
+.title{
+    font-size   : 3rem;
+    color       : crimson;
+    margin      : 40px 0;
+    text-align  : center;
+    font-family : monospace;
+}
+
+/* @media print{  Cuando se manda a imprimir 
+    .title{
+        color       : steelblue;
+        font-size   : 5rem;
+        text-align  : right;
+        font-family : cursive;
+    }
+}
+
 @media screen and (max-width:600px){
     :root{
         --my-color:white;
@@ -17,21 +35,13 @@
         background: black;
         color:white;
     }
-}
+} */
 
-h1.title{
-    font-size   : 3rem;
-    color       : crimson;
-    margin      : 40px 0;
-    text-align  : center;
-    font-family : monospace;
-}
-
-@media print{ /* Cuando se manda a imprimir */
+/* orientation existen dos opciones portrait y landscape */
+@media screen and (orientation: landscape) and (max-width:600px) {
     .title{
-        color       : steelblue;
-        font-size   : 5rem;
-        text-align  : right;
-        font-family : cursive;
+        text-align: left;
+        background: steelblue;
+
     }
 }
