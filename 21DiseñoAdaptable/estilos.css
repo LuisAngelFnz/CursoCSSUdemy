@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
+:root{
+    --my-color:crimson;
+}
 
 .title{
     font-size   : 3rem;
-    color       : crimson;
+    color       : var(--my-color);
     margin      : 40px 0;
     text-align  : center;
     font-family : monospace;
@@ -23,8 +26,11 @@
 }
 
 @media screen and (max-width:600px){
+    :root{
+        --my-color:white;
+    }
     .title{
         background: black;
-        color:white;
+        color:var(--my-color);
     }
 }
