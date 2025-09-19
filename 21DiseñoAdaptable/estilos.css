@@ -38,10 +38,17 @@
 } */
 
 /* orientation existen dos opciones portrait y landscape */
-@media screen and (orientation: landscape) and (max-width:600px) {
+/* @media screen and (orientation: landscape) and (max-width:600px) {
     .title{
         text-align: left;
         background: steelblue;
 
+    }
+} */
+
+@media screen and (max-width:400px), (min-width:900px) {
+    .title{
+        background: steelblue;
+        color: white;
     }
 }
