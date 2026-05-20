@@ -1,0 +1,33 @@
+BEM es una metodología que nons proveé una manera de nombrar clases en HTML, siguiendo elementos y terminando con modificadores.
+
+
+* Facilita el trabajar en CSS3
+* Evita problemas de cascada y especificidad
+* Hace reutilizable el código
+* Ahorra pensar en nombre para las clases
+* Fácil y rápido de entender
+* Facilita el trabajo en equipo
+
+
+Bloque:
+    Elemento independiente que existe por si mismo y no depende de otro.
+        Ejemplo: Formulario, Contenedor, Menú ó  Footer.
+
+    El nombre de la clase se define con el nombre de la etiqueta en html
+
+Elemento:
+    Elementos dentro de un bloque y dependen de un bloque para existir.
+        Ejemplo: imputs, enlaces etc.
+
+    Se nombre de la clase se define: NombrePadre + DosGuionBajo + NombreElemento
+        Ejemplo:
+            form__input
+
+Modificador:
+    Representa una alteración de un bloque ó elemento.
+        Ejemplo: Todos los enlaces tendran un color negro, pero solo uno tendra un color rojo,
+                 en ese caso entraría un modificador para indicar ese elemento tendrá otros estilos.
+
+    Se nombre de la clase se define: NombrePadre + DosGuionBajo + NombreElemento + DosGuionesMedios + NombreModificador
+        Ejemplo:
+            form__input--red
