@@ -11,10 +11,11 @@
     outline: 2px solid #000;
     margin: 30px auto;
     display: flex;
-    /* align-items: flex-start; */
+    /* flex-direction: column-reverse; */
+    /* align-items: flex-end; */
 }
 
-.item{
+.item{ 
     --height: 90px;
     background: tomato;
     width: 90px;
