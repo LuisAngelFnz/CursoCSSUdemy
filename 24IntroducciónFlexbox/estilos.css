@@ -5,9 +5,9 @@
 }
 
 .container{
-    width: 600px;
+    width: 400px;
     max-width: 600px;
-    height: 600px;
+    height: 400px;
     outline: 2px solid #000;
     margin: 30px auto;
     display: flex;
@@ -22,7 +22,7 @@
 
     /* Valores para justify-content son:
     flex-end, flex-start, center, space-between, space-around, space-evenly*/
-    justify-content: space-evenly;
+    /* justify-content: space-between; */
 
     /* Valores para align-items son
         stretch, center, flex-start, flex-end
@@ -32,16 +32,16 @@
     /* Valores para align-content solo funciona cuando se activa flex-wrap
         stretch, center, flex-start, flex-end
     */
-    flex-wrap: wrap;
-    align-content: flex-end;
+    /* flex-wrap: wrap;
+    align-content: center; */
 }
 
 .item{ 
-    width: 151px;
-    --height: 150px;
+    width: 80px;
+    --height: 80px;
     background: tomato;
     height: var(--height);
-    line-height: var(--height);
+    /* line-height: var(--height); */
     color: #fff;
     text-align: center;
     font-weight: bold;
@@ -50,7 +50,7 @@
 }
 
 .item1{
-    
+    /* order:1 */
 }
 
 .item2{
@@ -59,8 +59,18 @@
 
 .item3{
     background: crimson;
+    /* order:-1 */
 }
 
 .item4{
     background: steelblue;
 }
+
+/* @media screen and (min-width:600px) {
+    .container{
+        flex-direction: column;
+    }
+    .item4{
+        order:-1
+    }
+} */
