@@ -11,14 +11,21 @@
     outline: 2px solid #000;
     margin: 30px auto;
     display: flex;
-    /* flex-direction: column-reverse; */
+    /* flex-direction: column ; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
     /* align-items: flex-end; */
+
+    /* Este es un shorthand */
+    /* flex-flow: direction wrap; */
+    /* flex-flow: column wrap; */
 }
 
 .item{ 
+    width: 80px;
     --height: 90px;
     background: tomato;
-    width: 90px;
     height: var(--height);
     line-height: var(--height);
     color: #fff;
