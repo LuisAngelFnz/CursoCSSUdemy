@@ -22,12 +22,14 @@
 
     /* Valores para justify-content son:
     flex-end, flex-start, center, space-between, space-around, space-evenly*/
-    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 40px;
+    
 
     /* Valores para align-items son
         stretch, center, flex-start, flex-end
     */
-    align-items: center;
+    /* align-items: center; */
 
     /* Valores para align-content solo funciona cuando se activa flex-wrap
         stretch, center, flex-start, flex-end
@@ -55,6 +57,7 @@
 
     /* flex: 1 1 0; */
     /* flex: 10em; */
+    margin-top: 10px;
 }
 
 .item1{
