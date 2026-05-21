@@ -11,7 +11,7 @@
     outline: 2px solid #000;
     margin: 30px auto;
     display: flex;
-    /* flex-direction: column ; */
+    /* flex-direction: column-reverse; */
     /* flex-wrap: nowrap; */
     /* flex-wrap: wrap; */
     /* flex-wrap: wrap-reverse; */
@@ -20,10 +20,14 @@
     /* Este es un shorthand */
     /* flex-flow: direction wrap; */
     /* flex-flow: column wrap; */
+
+    /* Valores para justify-content son:
+    flex-end, flex-start, center, space-between, space-around, space-evenly*/
+    justify-content: space-evenly;
 }
 
 .item{ 
-    width: 80px;
+    width: 150px;
     --height: 90px;
     background: tomato;
     height: var(--height);
