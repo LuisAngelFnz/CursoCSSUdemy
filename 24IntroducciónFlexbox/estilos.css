@@ -27,7 +27,7 @@
     /* Valores para align-items son
         stretch, center, flex-start, flex-end
     */
-    /* align-items: normal; */
+    align-items: center;
 
     /* Valores para align-content solo funciona cuando se activa flex-wrap
         stretch, center, flex-start, flex-end
@@ -50,8 +50,11 @@
     /* flex-grow: 1; */
     /* flex-grow: 0; */
     /* flex-shrink: 2; */
-    flex-basis: 0;
-    flex-grow: 1;
+    /* flex-basis: 0;
+    flex-grow: 1; */
+
+    /* flex: 1 1 0; */
+    /* flex: 10em; */
 }
 
 .item1{
@@ -63,11 +66,19 @@
 .item2{
     background: slateblue;
     /* flex-grow: 10; */
+    /* align-self: stretch; */
+    /* height: auto; */
+    /* margin-top: auto; */
+    margin-bottom: auto;
 }
 
 .item3{
     background: crimson;
     /* order:-1 */
+    /* margin-top: 400px; */
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto; */
 }
 
 .item4{
