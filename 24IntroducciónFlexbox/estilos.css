@@ -5,17 +5,16 @@
 }
 
 .container{
-    width: 90%;
+    width: 600px;
     max-width: 600px;
     height: 600px;
     outline: 2px solid #000;
     margin: 30px auto;
     display: flex;
-    /* flex-direction: column-reverse; */
+    flex-direction: row;
     /* flex-wrap: nowrap; */
     /* flex-wrap: wrap; */
     /* flex-wrap: wrap-reverse; */
-    /* align-items: flex-end; */
 
     /* Este es un shorthand */
     /* flex-flow: direction wrap; */
@@ -24,11 +23,22 @@
     /* Valores para justify-content son:
     flex-end, flex-start, center, space-between, space-around, space-evenly*/
     justify-content: space-evenly;
+
+    /* Valores para align-items son
+        stretch, center, flex-start, flex-end
+    */
+    /* align-items: normal; */
+
+    /* Valores para align-content solo funciona cuando se activa flex-wrap
+        stretch, center, flex-start, flex-end
+    */
+    flex-wrap: wrap;
+    align-content: flex-end;
 }
 
 .item{ 
-    width: 150px;
-    --height: 90px;
+    width: 151px;
+    --height: 150px;
     background: tomato;
     height: var(--height);
     line-height: var(--height);
