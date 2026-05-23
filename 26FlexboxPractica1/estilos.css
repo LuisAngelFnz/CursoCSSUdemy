@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@300;400;500;700&family=Raleway:ital@0;1&display=swap');
 :root{
-    --hegth-nav:70px
+    --heigth-nav:70px
 }
 
 *{
@@ -23,7 +23,7 @@ body{
 
 .nav{
     background: #143d64;
-    height: var(--hegth-nav);
+    height: var(--heigth-nav);
 }
 
 .nav__container{
@@ -41,7 +41,7 @@ body{
 
 .hero__main{
     display: flex;
-    height: calc(100vh --hegth-nav);
+    height: calc(100vh --heigth-nav);
     /* background: #000; */
     align-items: center;
     min-height: 600px;
@@ -79,5 +79,43 @@ body{
     color: #fff;
     text-decoration: none;
     border-radius: 6px;
-    
+}
+
+@media screen and (max-width:900px){
+    :root{
+        --heigth-nav:100px
+    }
+
+    .nav__container{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .hero__main{
+        flex-direction: column;
+        padding: 40px;
+    }
+    .hero__texts{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .hero__title{
+        font-size: 2.5rem;
+    }
+    .hero__paragraph{
+        font-size: 1rem;
+    }
+
+    .hero__picture{
+        order:-1;
+    }
+
+    .hero__img{
+        max-width: 380px;
+        min-width: 360px;
+    }
+
 }
