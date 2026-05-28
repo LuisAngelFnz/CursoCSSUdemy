@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500;700&family=Raleway:ital@0;1&family=Roboto:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
+*{
+    /* outline: 3px solid red; */
+}
 :root{
     --padding-container : 80px 0;
     --color-primary     : #f77062;
@@ -9,6 +12,102 @@
     --box-shadow        : 0 0 12px rgba(0,0,0, .2);
 }
 
-html{
+body{
      font-family: "Lato", sans-serif;
+}
+
+/* Globales */
+.container{
+    width     : 90%;
+    max-width : 1200px;
+    overflow  : hidden;
+    margin    : 0 auto;
+    padding: var(--padding-container);
+
+}
+
+.title{
+    font-size     : 2.5rem;
+    margin        : 0;
+    margin-bottom : 40px;
+    color         : var(--color-primary);
+    text-align    : var(--align-title);
+}
+
+/* Header */
+.hero{
+    --padding-container:0;
+    height: 100vh;
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+}
+
+.hero__main{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.hero__img{
+    width: 45%;
+    text-align: center;
+}
+
+.hero__picture{
+    max-width: 80%;
+}
+
+.hero__texts{
+    width: 55%;
+    color: #fff;
+}
+
+.hero__title{
+    font-size: 4rem;
+}
+
+.hero__copy{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* About */
+.about{
+    display         : flex;
+    justify-content : space-between;
+    align-content   : center;
+    flex-wrap       : wrap;
+}
+
+.about__img{
+    width       : 45%;
+    text-align  : center;
+    margin      : 0;
+}
+
+.about__picture{
+    max-width: 80%;
+}
+
+.about__texts{
+    width           : 50%;
+    --align-title   : left;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : space-evenly;
+}
+
+.about__paragraph{
+    line-height: 1.5;
+}
+
+.about__cta{
+    background      : var(--color-primary);
+    text-decoration : none;
+    padding         : 20px 40px;
+    border-radius   : 30px;
+    color           : #fff;
+    font-weight     : 700;
+    margin-right    : auto;
 }
