@@ -111,3 +111,61 @@ body{
     font-weight     : 700;
     margin-right    : auto;
 }
+
+/* Portfolio */
+.portfolio{
+    background: var(--color-bg);
+}
+
+
+.portfolio__cards{
+    padding         : 40px 0;
+    display         : flex;
+    justify-content : space-evenly;
+    flex-wrap       : wrap;
+}
+
+.portfolio__card{
+    width           : 27%;
+    background      : #fff;
+    box-shadow      : var(--box-shadow);
+    border-radius   : 10px;
+    display         : flex;
+    flex-direction  : column;
+}
+
+.portfolio__picture{
+    border-radius : 10px 10px 0 0;
+    object-fit    : cover;
+    width         : 100%;
+}
+
+.portfolio__texts{
+    padding         : 25px 20px 35px;
+    display         : flex;
+    flex-direction  : column;
+    flex-grow       : 1;
+}
+
+.portfolio__title{
+    font-size   : 1.5rem;
+    text-align  : center;
+    color       : var(--color-secondary);
+    margin      : 0;
+}
+
+.portfolio__paragraph{
+    font-weight : 300;
+    margin      : 30px 0;
+}
+
+.portfolio__cta{
+    background      : var(--color-secondary);
+    padding         : 15px 0;
+    border-radius   : 30px;
+    text-align      : center;
+    text-decoration : none;
+    color           : #fff;
+    font-weight     : 400;
+    margin-top      : auto;
+}
