@@ -169,3 +169,13 @@ body{
     font-weight     : 400;
     margin-top      : auto;
 }
+
+/* Copy section */
+.copy{
+    background: var(--color-primary);
+}
+
+.title--margin{
+    color   : #fff;
+    margin  : 0;
+}
