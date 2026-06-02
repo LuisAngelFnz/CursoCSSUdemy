@@ -197,3 +197,18 @@ body{
     object-fit    : cover;
     box-shadow    : var(--box-shadow);
 }
+
+/* Languages */
+.languages{
+    background: var(--color-bg);
+}
+
+.languages__container{
+    display         : flex;
+    justify-content : space-evenly;
+    flex-wrap       : wrap;
+}
+
+.languages__img{
+    width: 100px;
+}
