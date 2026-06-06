@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
 *{
-    outline: 3px solid red;
+    /* outline: 3px solid red; */
 }
 :root{
     --padding-container : 80px 0;
@@ -234,14 +234,22 @@ body{
     width: 50%;
 }
 
+.footer__container--icons{
+    display         : flex;
+    justify-content : space-evenly;
+}
+
+.footer__icons{
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+}
 .footer__icon{
-    display         : inline-block;
-    margin          : 0 30px 30px 0;
-    width           : 60px;
-    height          : 60px;
-    border          : 1px solid;
-    border-radius   : 50%;
-    padding         : 10px;
+    width         : 60px;
+    height        : 60px;
+    border        : 1px solid;
+    border-radius : 50%;
+    padding       : 10px;
 }
 
 .footer__icon:hover{
@@ -251,10 +259,8 @@ body{
 }
 
 .footer__link{
-    display       : inline-block;
-    color         : #fff;
-    margin        : 0 30px;
-    margin-bottom : 30px;
+    margin  : 20px 0;
+    color   : #fff;
 }
 
 .footer__link:hover{
@@ -353,3 +359,4 @@ body{
         width: 40%;
     }
 }
+
