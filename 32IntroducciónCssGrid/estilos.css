@@ -18,8 +18,8 @@ body{
     /* align-items: flex-end; */
     /* grid-template-columns: repeat(2, 100px 200px); */
     /* justify-content: center; */
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 3fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 3fr);
 }
  
 .grid_item{
@@ -30,6 +30,13 @@ body{
 
 .grid_item:nth-child(1){
     background: crimson;
+    /* grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5; */
+    /* shorthand */
+    grid-column: 3/5;
+    grid-row: 3/5;
 }
 
 .grid_item:nth-child(2){
