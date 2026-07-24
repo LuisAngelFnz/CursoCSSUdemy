@@ -19,7 +19,7 @@ body{
     /* grid-template-columns: repeat(2, 100px 200px); */
     /* justify-content: center; */
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 3fr);
+    grid-template-rows: repeat(2, 1fr);
 
     /* gutters */
     /* row-gap: 20px;
@@ -30,12 +30,17 @@ body{
     /* grid-row-gap: 100px; */
     /* Actualmente solo se usa gap: */
     gap:10px;
+
+    grid-auto-flow: column;
+    grid-auto-columns: 10px 50px;
+    grid-auto-rows: 1fr;
 }
 
 .grid_item{
     color: #fff;
     font-size: 3rem;
     text-align: center;
+    background: crimson;
 }
 
 .grid_item:nth-child(1){
@@ -74,4 +79,10 @@ body{
 }
 .grid_item:nth-child(6){
     background: midnightblue;
+}
+.grid_item:nth-child(7){
+    background: blue;
+}
+.grid_item:nth-child(8){
+    background: pink;
 }
