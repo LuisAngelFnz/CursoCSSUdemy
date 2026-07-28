@@ -15,11 +15,13 @@
     grid-template-rows: [header-start] 1fr [header-end main-start sidebar-start] 1fr 1fr  1fr [main-end sidebar-end footer-start] 1fr [footer-end]; */
     /* grid-template-columns: repeat(5, [columna-start] 1fr [columna-end]);
     grid-template-rows: repeat(5, [fila-start] 1fr [fila-end]); */
-    grid-template-areas: 
+    /* grid-template-areas: 
     "header  header  header  header   header  "
     "main    main    main    sidebar  sidebar "
     "main    main    main    sidebar  sidebar "
-    "footer  footer  footer  footer   footer  ";
+    "footer  footer  footer  footer   footer  "; */
+    grid-template-columns: min-content max-content fit-content(100px);
+    grid-template-rows: min-content max-content;
 }
 
 .grid__item{
@@ -36,8 +38,8 @@
     /* grid-area: header; */
     /* grid-column: columna-start 1 / columna-end 5;
     grid-row: fila-start 1 / fila-end 1; */
-    grid-column: header-start/header-end;
-    grid-row: header-start/header-end;
+    /* grid-column: header-start/header-end; */
+    /* grid-row: header-start/header-end; */
 }
 
 .grid__item:nth-child(2){
@@ -45,8 +47,8 @@
     /* grid-area: main; */
     /* grid-column: columna-start 1 / columna-end 3; */
     /* grid-row: fila-start 2 / fila-end 4; */
-    grid-column: main-start/main-end;
-    grid-row: main-start/main-end;
+    /* grid-column: main-start/main-end; */
+    /* grid-row: main-start/main-end; */
 }
 
 .grid__item:nth-child(3){
@@ -54,8 +56,8 @@
     /* grid-area: sidebar; */
     /* grid-column: columna-start 4 / columna-end 5; */
     /* grid-row: fila-start 2 / fila-end 4; */
-    grid-column: sidebar-start/sidebar-end;
-    grid-row: sidebar-start/sidebar-end;
+    /* grid-column: sidebar-start/sidebar-end; */
+    /* grid-row: sidebar-start/sidebar-end; */
 }
 
 .grid__item:nth-child(4){
@@ -63,6 +65,6 @@
     /* grid-area: footer; */
     /* grid-column: columna-start 1 / columna-end 5; */
     /* grid-row: fila-start 5; */
-    grid-column: footer-start/footer-end;
-    grid-row: footer-start/footer-end;
+    /* grid-column: footer-start/footer-end; */
+    /* grid-row: footer-start/footer-end; */
 }
