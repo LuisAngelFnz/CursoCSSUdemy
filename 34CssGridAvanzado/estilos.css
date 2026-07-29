@@ -20,8 +20,9 @@
     "main    main    main    sidebar  sidebar "
     "main    main    main    sidebar  sidebar "
     "footer  footer  footer  footer   footer  "; */
-    grid-template-columns: min-content max-content fit-content(100px);
-    grid-template-rows: min-content max-content;
+    /* grid-template-columns: min-content max-content fit-content(100px);
+    grid-template-rows: min-content max-content; */
+    grid-template-columns: minmax(80px, 300px) minmax(20px, 80px);
 }
 
 .grid__item{
