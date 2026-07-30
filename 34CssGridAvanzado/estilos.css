@@ -15,7 +15,7 @@
     grid-template-rows: [header-start] 1fr [header-end main-start sidebar-start] 1fr 1fr  1fr [main-end sidebar-end footer-start] 1fr [footer-end]; */
     /* grid-template-columns: repeat(5, [columna-start] 1fr [columna-end]);
     grid-template-rows: repeat(5, [fila-start] 1fr [fila-end]); */
-    /* grid-template-areas: 
+    /* grid-template-areas:
     "header  header  header  header   header  "
     "main    main    main    sidebar  sidebar "
     "main    main    main    sidebar  sidebar "
@@ -23,8 +23,20 @@
     /* grid-template-columns: min-content max-content fit-content(100px);
     grid-template-rows: min-content max-content; */
     /* grid-template-columns: minmax(80px, 300px) minmax(20px, 80px); */
-    grid-template-columns: repeat(auto-fill, minmax(50px, 100px));
-    grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+    /* grid-template-columns: repeat(auto-fill, minmax(50px, 100px));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 300px)); */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    /* justify-items y align-items: valores permitidos:
+        start|end|stretch|center
+    */
+    justify-items: center;
+    align-items: center;
+
+    /* Shorthand de justify-content y align-items: */
+    /* place-items: align-items justify-items; */
+    place-items: start start;
 }
 
 .grid__item{
