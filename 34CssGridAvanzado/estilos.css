@@ -33,13 +33,16 @@
     */
     /* justify-items: center;
     align-items: center; */
-
+    
     /* Shorthand de justify-content y align-items: */
     /* place-items: align-items justify-items; */
     /* place-items: start start; */
-
-    /* justify-content: center;
+    
+    /*
+    justify-content: center;
     align-content: end; */
+    /* shorthand de justify-content y align-content:  */
+    /* place-content: center center; */
     /* grid: shorthand para crear filas y columnas */
     /* grid: filas/columnas */
     grid: repeat(3, [fila-start] 1fr [fila-end]) /  repeat(3, [columna-start] 1fr [columna-end]);
@@ -61,9 +64,12 @@
     grid-row: fila-start 1 / fila-end 1; */
     /* grid-column: header-start/header-end; */
     /* grid-row: header-start/header-end; */
-    grid-column: 1/2;
+    /* grid-column: 1/2;
     grid-row: 1/2;
-    z-index: 1;
+    z-index: 1; */
+    /* align-self: end;
+    justify-self:end; */
+    place-self: start end;
 }
 
 .grid__item:nth-child(2){
@@ -73,8 +79,10 @@
     /* grid-row: fila-start 2 / fila-end 4; */
     /* grid-column: main-start/main-end; */
     /* grid-row: main-start/main-end; */
-    grid-column: 1/2;
-    grid-row: 1/2;
+    /* grid-column: 1/2;
+    grid-row: 1/2; */
+    align-self: center;
+    justify-self:center;
 }
 
 .grid__item:nth-child(3){
